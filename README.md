@@ -1,10 +1,10 @@
 ## Important Setups
 ### 0. Install MongoDB on your server
-### 1. Start MongoDB service:
+### 1. Start MongoDB service
 ```
 systemctl mongod
 ```
-### 2. Run initial mongo script in *api* folder
+### 2. Install JS packages and initialize MongoDB in *api* folder
 ```
 cd api
 npm install
@@ -13,7 +13,7 @@ mongo hotel scripts/init.mongo.js
 This will create "hotel" database and tow collections "customer" and "counters" in it.
 > **Note:** this project accesses hotel->customers and hotel->counters in MongoDB. 
 
-### 3. Start server in both *api* and *ui* folder
+### 3. Install JS packages and start server in both *api* and *ui* folder
 ```
 npm start
 ```
