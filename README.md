@@ -9,6 +9,7 @@ systemctl mongod
 cd api
 npm install
 mongo hotel scripts/init.mongo.js
+npm start
 ```
 This will create "hotel" database and tow collections "customer" and "counters" in it.
 > **Note:** this project accesses hotel->customers and hotel->counters in MongoDB. 
