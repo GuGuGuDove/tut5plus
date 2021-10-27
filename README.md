@@ -4,7 +4,7 @@
 ```
 systemctl mongod
 ```
-### 2. Run initial mongo script in **api** folder: 
+### 2. Run initial mongo script in *api* folder: 
 ```
 cd api
 mongo hotel scripts/init.mongo.js
@@ -12,7 +12,7 @@ mongo hotel scripts/init.mongo.js
 This will create "hotel" database and tow collections "customer" and "counters" in it.
 > **Note:** this project accesses hotel->customers and hotel->counters in MongoDB. 
 
-### 3. Start server in both **api** and **ui** folder:
+### 3. Start server in both *api* and *ui* folder:
 ```
 npm start
 ```
