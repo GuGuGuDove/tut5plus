@@ -3,7 +3,7 @@
 Important Setups:
 1. Start mongodb service: <br>
     systemctl mongod
-2. Run initial mongo script: this will create "hotel" database and tow collections "customer" and "counters" collections in it. <br>
+2. Run initial mongo script in api folder: this will create "hotel" database and tow collections "customer" and "counters" collections in it. <br>
     mongo hotel scripts/init.mongo.js
 3. Start server in both api and ui: <br>
     npm start
